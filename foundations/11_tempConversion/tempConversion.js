@@ -3,12 +3,12 @@ const convertToCelsius = function(temperature) {
   if (temperature != temperature.toFixed(1)){
     temperature = temperature.toFixed(1);
   }
-  return temperature;
+  return Number(temperature);
 };
 
 const convertToFahrenheit = function(temperature) {
   temperature = (temperature*(9/5)+32).toFixed(1);
-  return temperature;
+  return Number(temperature);
 };
 
 // Do not edit below this line
